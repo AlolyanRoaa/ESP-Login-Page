@@ -5,8 +5,8 @@ from playsound import playsound
 
 def convert_to_voice():
     # the model of TTS
-    key = 'z0eveTuFc0uQ5zzrjP4EUe5bNxLRMmZeCkGX-MnU2eRh'
-    url = 'https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/9aa931bd-c308-436f-bd45-1dcd64bb0508'
+    key = '{yourApiKey}'
+    url = '{url}'
 
     # Authenticate
     authenticator = IAMAuthenticator(key)
